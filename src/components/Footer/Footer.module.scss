@@ -1,0 +1,23 @@
+.footer {
+  background: #dadada;
+  color: #848484;
+  font-size: 12px;
+  padding: 10px;
+  line-height: 1;
+  box-sizing: border-box;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+
+  a {
+    text-decoration: none;
+    color: #848484;
+  }
+}
+
+.footerNav {
+  margin-bottom: 25px;
+  a {
+    display: block;
+  }
+}

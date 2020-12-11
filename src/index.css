@@ -1,0 +1,55 @@
+@font-face {
+  font-family: PFBeauSansProBold;
+  src: url('assets/fonts/PFBeauSansPro-Bold.eot');
+  src: url('assets/fonts/PFBeauSansPro-Bold.eot?#iefix') format('embedded-opentype'),
+  url('assets/fonts/PFBeauSansPro-Bold.woff2') format('woff2'),
+  url('assets/fonts/PFBeauSansPro-Bold.woff') format('woff'),
+  url('assets/fonts/PFBeauSansPro-Bold.svg#PFBeauSansPro-Bold') format('svg');
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: PFBeauSansProBook;
+  src: url('assets/fonts/PFBeauSansPro-Bbook.eot');
+  src: url('assets/fonts/PFBeauSansPro-Bbook.eot?#iefix') format('embedded-opentype'),
+  url('assets/fonts/PFBeauSansPro-Bbook.woff2') format('woff2'),
+  url('assets/fonts/PFBeauSansPro-Bbook.woff') format('woff'),
+  url('assets/fonts/PFBeauSansPro-Bbook.svg#PFBeauSansPro-Bbook') format('svg');
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: PFBeauSansProItalic;
+  src: url('assets/fonts/PFBeauSansPro-Italic.eot');
+  src: url('assets/fonts/PFBeauSansPro-Italic.eot?#iefix') format('embedded-opentype'),
+  url('assets/fonts/PFBeauSansPro-Italic.woff2') format('woff2'),
+  url('assets/fonts/PFBeauSansPro-Italic.woff') format('woff'),
+  url('assets/fonts/PFBeauSansPro-Italic.svg#PFBeauSansPro-Italic') format('svg');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font: 1rem/1.5em PFBeauSansProBook,Rockwell,'Courier Bold',Courier,Georgia,Times,'Times New Roman',serif;
+  position: relative;
+  background-color: #eee;
+}
+body, html {
+  overflow-x: hidden;
+}
+
+*:focus, *:active {
+  outline: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
