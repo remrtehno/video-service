@@ -1,14 +1,27 @@
-export type LinksAction = {
-    type: 'loading',
+import { LoaderState } from '../types/Loader';
+
+export type LoaderActions = {
+    type: 'LOADING',
 } | {
-    type: 'done',
+    type: 'LOADED',
 };
 
-export default function fetchMain(state = [], action: LinksAction) {
+export default function isLoading(state: LoaderState, action: LoaderActions) {
     switch (action.type) {
-        case 'loading':
-            return state;
+        case 'LOADING':
+            return {
+                ...state,
+                isLoading: true,
+            };
+        case 'LOADED':
+            return {
+                ...state,
+                isLoading: false,
+            };
         default:
-            return state;
+            return {
+                ...state,
+                isLoading: true,
+            };
     }
 }

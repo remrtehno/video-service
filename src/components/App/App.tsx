@@ -12,7 +12,6 @@ import Loader from '../Loader/Loader';
 import configureStore from './configureStore';
 
 const store = configureStore();
-console.log(store.getState());
 
 function App() {
     return (

@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux';
-import fetchMain from './common';
+import isLoading from './common';
 
 const rootReducer = combineReducers({
-    fetchMain,
+    isLoading,
 });
 
 export default rootReducer;
